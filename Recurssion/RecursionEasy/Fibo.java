@@ -1,4 +1,4 @@
-package Recurssion;
+package Recurssion.RecursionEasy;
 public class Fibo {
     public static void fibonacci(int a, int b, int n){
         if(n==0)

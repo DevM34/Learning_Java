@@ -1,15 +1,8 @@
-package Recurssion;
+package Recurssion.RecursionEasy;
 import java.util.Scanner;
 
 class RecurssionEasy{
-    // Printing in Ascending Order
-    // public static void printAsc(int n){
-    //     if(n==0)
-    //         return;
-    //     print(n-1);
-    //     System.out.println(n);
-    // }
-    
+
     // Printing in Descending order
     // public static void printDesc(int n){
     //     if(n==0)
@@ -17,6 +10,15 @@ class RecurssionEasy{
     //     System.out.println(n);
     //     printDesc(n-1);
     // }
+
+    // // Printing in Ascending Order
+    // public static void printAsc(int n){
+    //     if(n==0)
+    //         return;
+    //     printAsc(n-1);
+    //     System.out.println(n);
+    // }
+
 
     // Calculating sum of n numbers
     // public static void sum(int n,int s){
@@ -82,7 +84,7 @@ class RecurssionEasy{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        int n = sc.nextInt();
+        //int n = sc.nextInt();
         //printAsc(n);                                Print in Asc order
         //printDesc(n);                               Print in Desc order
         //sum(n,0);                                   Calculating sum and printing

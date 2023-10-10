@@ -1,4 +1,4 @@
-package Recurssion;
+package Recurssion.RecursionMedium;
 public class subsequence {
     public static void subSequence(String str, int idx, String newString){
         if(idx==str.length()){
